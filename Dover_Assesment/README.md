@@ -28,7 +28,7 @@ Maven - My framework is created as a maven project, maven is a Java building app
 
 Selenium WebDriver - Is the browser automation library/tool/api  which I have usedin this project.
 
-TestNG - Is used to group tests using xml files, do soft and hard assertions, creating test methods and run in certain order
+JUnit  - Is a unit testing framework for the Java programming language. JUnit has been important in the development of test-driven development
 
 Cucumber - Is used to achieve behavior-driven development (BDD). With Gherkin, it allows expected software behaviours to be specified in a logical language that customers can understand.And It runs automated acceptance tests written in a behavior-driven development (BDD) style.
 
