@@ -66,9 +66,7 @@ Benefits
 My framework uses page object model which makes it easy to maintain. For example if i have to update any locator, I only need to do one code change.
 I try to make my tests independent from each other, this means if I update one test, it will not affect others and also if one fails, others will not be affected.
 
-test 1
-test 2
-test 3
+
 
 2) Easy to extend:
 
