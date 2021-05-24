@@ -9,13 +9,19 @@ Author
 --------
 Hamza Ali CETIN
 
+
+Aim
+--------
+
+ The Dover Fueling Solutions Assessment Project is created to provide an example of a test automationframework. 
+
+
 Overview
 --------
 
- I've decided to create a sample Cucumber Framework and share my approach to creation from scratch. In this project I have worked on https://www.spotify.com/ website. The tools, the design and the benefits are written below.
+ I've decided to create a sample Cucumber Framework and share my approach to creation from scratch. In this project I have worked on http://secure.smartbearsoftware.com/samples/testcomplete12/weborders website which is a public site developed by SmartBear Software for testing purposes. The tools, the design and the benefits are written below.
 
- This project should be treated as a continual work in progress. I hope this will help you to better understand Java and Selenium concepts, regardless of your current knowledge or interest level. Programming is one of my greatest joys and, if it isn't already one of yours, perhaps this will bring you one step closer.
-
+ This project should be treated as a continual work in progress. I hope this will help you to better understand Java and Selenium concepts, and Cucumber framework regardless of your current knowledge or interest level in test automation. Programming is one of my greatest joys and, if it isn't already one of yours, perhaps this will bring you one step closer.
 
 
 
@@ -30,10 +36,10 @@ Selenium WebDriver - Is the browser automation library/tool/api  which I have us
 
 JUnit  - Is a unit testing framework for the Java programming language. JUnit has been important in the development of test-driven development
 
-Cucumber - Is used to achieve behavior-driven development (BDD). With Gherkin, it allows expected software behaviours to be specified in a logical language that customers can understand.And It runs automated acceptance tests written in a behavior-driven development (BDD) style.
+Cucumber - I used cucumber to achieve behavior-driven development (BDD). With Gherkin, it allows expected software behaviours to be specified in a logical language that customers can understand. And It runs automated acceptance tests written in a behavior-driven development (BDD) style.
 
 
-Extent - My framework generates detailed Cucumber-html reports which makes it is easy to read and understand to non-technical team members. My reports have details test steps and screenshots for any failures that may occur. It can also do metrics on what percentage is passing, failing, skipped etc
+Extent - My framework generates detailed Cucumber-html reports which makes it is easy to read and understand to non-technical team members. My reports have details test steps and screenshots for any failures that may occur. If requested with a small adjustment, it can also make metrics on the percentage of passing, failing, skipped, etc. 
 
 IDE - I used IntelliJ in my current framework.
 
@@ -101,4 +107,7 @@ methods: login(): this methods only used to login, not for any other functionali
 
 NOTE : Test reports are intentionally loaded to remote repo for practice purposes
 (.ignore does not have test-output/)
+
+
+
 
