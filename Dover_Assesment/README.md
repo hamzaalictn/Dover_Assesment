@@ -13,7 +13,19 @@ Hamza Ali CETIN
 Aim
 --------
 
- The Dover Fueling Solutions Assessment Project is created to provide an example of a test automationframework. 
+ The Dover Fueling Solutions Assessment Project is created to provide an example of a test automation framework. 
+
+
+
+Test Executions 
+-------- 
+ In order to start the tests by using Maven in your local computer, you need to follow these steps: 	
+
+	1) Download the project from : https://github.com/hamzaalictn/Dover_Assesment.git 
+	2) Open the command prompt and cd until the project root directory.
+	3) Run the following command in the command prompt: mvn test
+
+
 
 
 Overview
@@ -105,9 +117,7 @@ methods: login(): this methods only used to login, not for any other functionali
 
 
 
-NOTE : Test reports are intentionally loaded to remote repo for practice purposes
-(.ignore does not have test-output/)
-
+NOTE : Test reports are intentionally loaded to remote repo for practice purposes.
 
 
 
