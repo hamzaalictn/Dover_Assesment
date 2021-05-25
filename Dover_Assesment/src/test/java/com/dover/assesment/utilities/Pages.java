@@ -1,25 +1,30 @@
 package com.dover.assesment.utilities;
 
-import com.dover.assesment.pages.HomePage;
 import com.dover.assesment.pages.LoginPage;
-import com.dover.assesment.pages.WelcomePage;
+import com.dover.assesment.pages.OrderPage;
+import com.dover.assesment.pages.WebOrdersPage;
 
 public class Pages {
-    private HomePage homePage;
+    private WebOrdersPage webOrdersPage;
     private LoginPage loginPage;
-    private WelcomePage welcomepage;
+    private OrderPage orderpage;
 
     public Pages() {
-        this.homePage = new HomePage();
         this.loginPage = new LoginPage();
-        this.welcomepage = new WelcomePage();
+        this.webOrdersPage = new WebOrdersPage();
+        this.orderpage = new OrderPage();
     }
 
-    public HomePage homePage() {
-        return homePage;
+    public WebOrdersPage webOrdersPage() {
+        return webOrdersPage;
     }
+
     public LoginPage loginPage() {
         return loginPage;
     }
-    public WelcomePage welcomePage() { return welcomepage;}
+    public OrderPage orderPage() {
+        return orderpage;
+    }
+
+
 }
