@@ -19,6 +19,9 @@ Aim
 
 Test Executions 
 -------- 
+
+ Prerequisites: Maven and Java installation   
+
  In order to start the tests by using Maven in your local computer, you need to follow these steps: 	
 
 	1) Download the project from : https://github.com/hamzaalictn/Dover_Assesment.git 
