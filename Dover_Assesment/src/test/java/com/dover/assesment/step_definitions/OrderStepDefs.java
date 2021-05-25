@@ -37,7 +37,7 @@ public class OrderStepDefs extends BaseStep {
     }
 
 
-    //| Product   | Quantity | Price per unit | Discount |
+    // | Product   | Quantity | Price per unit | Discount |
     @When("the user enters product information:")
     public void the_user_enters_product_information(List<Map<String, String>> dataTable) {
         Map<String, String> values = dataTable.get(0);

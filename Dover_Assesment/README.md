@@ -43,7 +43,7 @@ Overview
 Tools
 -------
 
-Java - My framework is written using Java language, 1.8 version.
+Java - My framework is written using Java language, 8 version.
 
 Maven - My framework is created as a maven project, maven is a Java building application tool, in this project I have used maven to manage dependencies and also run our tests as mvn goals from terminal
 
