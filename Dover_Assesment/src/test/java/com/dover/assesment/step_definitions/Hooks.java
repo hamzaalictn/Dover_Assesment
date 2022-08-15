@@ -18,6 +18,8 @@ public class Hooks {
         Driver.getDriver().manage().window().maximize();
 
 
+
+
     }
 
     @After
