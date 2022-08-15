@@ -13,6 +13,7 @@ Feature: Add order
     When the user enters address information:
       | Customer name | Street             | City  | State           | Zip  |
       | Test User     | Leuvensestraat 10, | Diest | Flemish Brabant | 3290 |
+
     And the user enters payment information:
       | Card | Card Nr:    | Expire date (mm/yy) |
       | Visa | 12345667890 | 04/25               |
